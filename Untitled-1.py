@@ -1,0 +1,55 @@
+# print('I like {} and "{}"' .format('football', 'cricket') )
+# a= float(1)
+# print(a)
+# list1= ['apple','orange','bananna',123]
+# list2=['vegetables','fruits']
+# list1.append(456)
+# list1.insert(2,"melon")
+# list1.extend(list2)
+# list1.remove(list1[1])
+# list1.remove(123)
+# list1.pop(2)
+# print(list1)
+# print(tuple1[3])
+# print(len(tuple1))
+# dict1={"Brand":"Honda","year":2022,"model":"city"}
+# print(len(dict1))
+# print(dict1["Brand"])
+list3= ['a','b','c','d']
+# list3.append(8)
+print(list3)
+list3.insert(2,9)
+print(list3[2:])
+list3.pop(2)
+print(list3)
+i=[[56,67,56],[4,8,0,7]]
+i.append([2,3,4])
+i.append(10)
+i[1].append(34)
+print(i)
+j=i[1]
+print(j[1],j[2])
+print(i[1][1:3])
+print(i[3])
+# print(min(list3))
+# print(max(list3))
+tuple1=('apple','orange','bananna',123)
+print(tuple1)
+print(list(tuple1))
+k=list(tuple1)
+k.append(234)
+print(k)
+dict2={'brand':['bmw','mercedes'],'model':'x','year':2023}
+print(dict2['brand'])
+dict2['model']='y'
+print(dict2)
+dict2['branch']='kozhikode'
+dict2.pop('branch')
+print(dict2)
+print(dict2['brand'])
+set1={'car','bike','boat','ship'}
+print(set1)
+set1.add(12)
+print(set1)
+set1.update(['red','blue','yellow'])
+print(set1)
