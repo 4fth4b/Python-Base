@@ -24,10 +24,11 @@ if sumx==sumy:
     print(f'sum of list 1: {sumx} is equal to sum of list 2: {sumy}')
 else:
     print(f'sum of list 1: {sumx} is not equal to sum of list 2: {sumy}')
-z=set(x).intersection(y)
-if z==0:
-    print(f'there are no common numbers in these lists')
-else:
-    print(f'the common numbers in these lists are:{z}')
-
+for i in range(i,n):
+    for j in range(j,m):
+        if x[i]==y[j]:
+            d=x[i]
+            print(f'the common number is',d)
+if d==0:
+    print('there are no common numbers in these lists')
   
